@@ -257,9 +257,9 @@ class WebToPDF:
 
 if __name__ == "__main__":
     converter = WebToPDF(
-        base_url="https://web3-ethereum-defi.readthedocs.io",
-        docs_path="/api/",
-        output_dir="pdfsite",
+        base_url="dominio_do_site",  # exemplo: https://web3-ethereum-defi.readthedocs.io
+        docs_path="/caminho_para_a_documentação",  # exemplo: /api/
+        output_dir="diretorio_de_saida",
         processes=4,
     )
     converter.run()
